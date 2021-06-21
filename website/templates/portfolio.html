@@ -1,0 +1,93 @@
+{% extends "main_base.html" %}
+{% load static %}
+{% block content %}
+
+<section class="page-title bg-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>latest projects.</h1>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Start -->
+<section class="portfolio-work">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="row shuffle-wrapper">
+            <div class="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups="[&quot;design&quot;]">
+              <img src="{% static 'website/images/portfolio/work1.jpg' %}" alt="">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <a href="{% static 'website/images/portfolio/work1.jpg' %}" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                  <a class="h3" href="{% static 'website/images/portfolio/work2.jpg' %}">Title</a>
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
+              <img src="{% static 'website/images/portfolio/work2.jpg' %}" alt="">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <a href="{% static 'website/images/portfolio/work2.jpg' %}" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                  <a class="h3" href="{% static 'website/portfolio-single.html' %}">Title</a>
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups="[&quot;illustration&quot;]">
+              <img src="{% static 'website/images/portfolio/work3.jpg' %}" alt="">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <a href="{% static 'website/images/portfolio/work3.jpg' %}" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                  <a class="h3" href="{% static 'website/images/portfolio-single.html' %}">Title</a>
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups="[&quot;video&quot;,&quot;illustration&quot;]">
+              <img src="{% static 'website/images/portfolio/work4.jpg' %}" alt="">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <a href="{% static 'website/images/portfolio/work4.jpg' %}" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                  <a class="h3" href="{% static 'website/images/portfolio-single.html' %}">Title</a>
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
+              <img src="{% static 'website/images/portfolio/work5.jpg' %}" alt="">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <a href="{% static 'website/images/portfolio/work5.jpg' %}" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                  <a class="h3" href="{% static 'website/portfolio-single.html' %}">Title</a>
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 portfolio-item shuffle-item" data-groups="[&quot;design&quot;,&quot;video&quot;]">
+              <img src="{% static 'website/images/portfolio/work6.jpg' %}" alt="">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <a href="{% static 'website/images/portfolio/work6.jpg' %}" class="portfolio-popup"><i class="icon ion-search"></i></a>
+                  <a class="h3" href="{% static 'website/portfolio-single.html' %}">Title</a>
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Portfolio End -->
+
+{% endblock %}

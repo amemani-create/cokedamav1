@@ -1,0 +1,115 @@
+{% extends "main_base.html" %}
+{% load static %}
+{% block content %}
+
+<!-- Slider Start -->
+<section class="slider">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h1 class="animated fadeInUp">Cokedema<br> Interior Plantscaping</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Wrapper Start -->
+<section class="about section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<div class="block">
+					<div class="section-title">
+						<h2>About Us</h2>
+						<p>subtitle</p>
+					</div>
+					<p>text</p>
+				</div>
+			</div><!-- .col-md-7 close -->
+			<div class="col-md-5">
+				<div class="block">
+					<img src="{% static 'website/images/wrapper-img.png' %}" alt="Img">
+				</div>
+			</div><!-- .col-md-5 close -->
+		</div>
+	</div>
+</section>
+
+<section class="feature bg-2">
+  <div class="container">
+    <div class="row justify-content-end">
+      <div class="col-md-6">
+        <h2 class="section-subtitle">TEXT</h2>
+        <p>
+          description
+        </p>
+        <a href="portfolio.html" class="btn btn-view-works">View Works</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service Start -->
+<section class="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="section-title">
+          <h2>Our Services</h2>
+          <p>Text <br> Text </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-bug"></i>
+          <h4>Text</h4>
+          <p>Text</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-leaf"></i>
+          <h4>Development</h4>
+          <p>Text</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-ios-sunny"></i>
+          <h4>Text</h4>
+          <p>Text</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="service-item">
+          <i class="ion-earth"></i>
+          <h4>Text</h4>
+          <p>Text</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call to action Start -->
+
+<section class="call-to-action bg-1 section-sm overly">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<h2 class="mb-3">Title</h2>
+					<p>text</p>
+					<a class="btn btn-main btn-solid-border" href="contact.html">Contact us</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+{% endblock %}
